@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ATC.RedisClient.Extensions.Configuration" Version="3.1.2" />
+    <PackageReference Include="ATC.RedisClient.Impl.ServiceLibrary" Version="3.2.2" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.GNB.Business.Contracts\VY.GNB.Business.Contracts.csproj" />
+    <ProjectReference Include="..\VY.GNB.Dtos\VY.GNB.Dtos.csproj" />
+    <ProjectReference Include="..\VY.GNB.Infrastructure.Contracts\VY.GNB.Infrastructure.Contracts.csproj" />
+    <ProjectReference Include="..\VY.GNB.Infrastructure.Implementation\VY.GNB.Infrastructure.Implementation.csproj" />
+    <ProjectReference Include="..\VY.GNB.XCutting.Contracts\VY.GNB.XCutting.Contracts.csproj" />
+    <ProjectReference Include="..\VY.GNB.XCutting.Domain\VY.GNB.XCutting.Domain.csproj" />
+    <ProjectReference Include="..\VY.GNB.XCutting.Implementation\VY.GNB.XCutting.Implementation.csproj" />
+  </ItemGroup>
+
+</Project>

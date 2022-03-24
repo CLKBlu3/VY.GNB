@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.GNB.Dtos\VY.GNB.Dtos.csproj" />
+    <ProjectReference Include="..\VY.GNB.XCutting.Contracts\VY.GNB.XCutting.Contracts.csproj" />
+    <ProjectReference Include="..\VY.GNB.XCutting.Domain\VY.GNB.XCutting.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.GNB.Dtos\VY.GNB.Dtos.csproj" />
+    <ProjectReference Include="..\VY.GNB.XCutting.Domain\VY.GNB.XCutting.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
